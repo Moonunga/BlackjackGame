@@ -22,12 +22,11 @@ namespace BlackJackLibrary
             {
                 foreach (CardFace cardface in Enum.GetValues(typeof(CardFace)))
                 {
-                    
+                    cards.Add(new Card(cardSuit, cardface));
                 }
             }
 
         }
-
 
     }
 }
