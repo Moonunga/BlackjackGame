@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 namespace BlackJackLibrary
 {
    
-    internal class Deck
+    public class Deck
     {
-        protected List<Card> cards = new List<Card>();
+        public List<Card> cards = new List<Card>();
 
         public Deck()
         {
             CreateDeck();
         }
 
-        public void CreateDeck()
+        void CreateDeck()
         {
             foreach (CardSuit cardSuit in Enum.GetValues(typeof(CardSuit)))
             {

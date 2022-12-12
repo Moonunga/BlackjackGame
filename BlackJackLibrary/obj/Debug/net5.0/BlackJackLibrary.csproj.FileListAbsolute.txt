@@ -1,0 +1,12 @@
+C:\Users\ansdn\source\repos\BlackjackGame\BlackJackLibrary\bin\Debug\net5.0\BlackJackLibrary.deps.json
+C:\Users\ansdn\source\repos\BlackjackGame\BlackJackLibrary\bin\Debug\net5.0\BlackJackLibrary.dll
+C:\Users\ansdn\source\repos\BlackjackGame\BlackJackLibrary\bin\Debug\net5.0\BlackJackLibrary.pdb
+C:\Users\ansdn\source\repos\BlackjackGame\BlackJackLibrary\obj\Debug\net5.0\BlackJackLibrary.csproj.AssemblyReference.cache
+C:\Users\ansdn\source\repos\BlackjackGame\BlackJackLibrary\obj\Debug\net5.0\BlackJackLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ansdn\source\repos\BlackjackGame\BlackJackLibrary\obj\Debug\net5.0\BlackJackLibrary.AssemblyInfoInputs.cache
+C:\Users\ansdn\source\repos\BlackjackGame\BlackJackLibrary\obj\Debug\net5.0\BlackJackLibrary.AssemblyInfo.cs
+C:\Users\ansdn\source\repos\BlackjackGame\BlackJackLibrary\obj\Debug\net5.0\BlackJackLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ansdn\source\repos\BlackjackGame\BlackJackLibrary\obj\Debug\net5.0\BlackJackLibrary.dll
+C:\Users\ansdn\source\repos\BlackjackGame\BlackJackLibrary\obj\Debug\net5.0\refint\BlackJackLibrary.dll
+C:\Users\ansdn\source\repos\BlackjackGame\BlackJackLibrary\obj\Debug\net5.0\BlackJackLibrary.pdb
+C:\Users\ansdn\source\repos\BlackjackGame\BlackJackLibrary\obj\Debug\net5.0\ref\BlackJackLibrary.dll
