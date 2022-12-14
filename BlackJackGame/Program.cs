@@ -7,9 +7,19 @@ namespace BlackJackGame
 {
     internal class Program
     {
+        public int[] playerPosi = { 5, 5 };
+        public int[] dealerPosi = { 5, 15 };
+        private int CardSize = 5;
+
         static void Main(string[] args)
         {
-             PrintDeck();
+            // PrintDeck();
+            Deck myDeck = new Deck();
+            Hand myHand = new Hand();
+            Hand dealer = new Hand(true);
+            
+
+
         }
 
         static void PrintDeck()
