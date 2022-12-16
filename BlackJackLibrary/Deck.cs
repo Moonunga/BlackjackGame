@@ -28,5 +28,25 @@ namespace BlackJackLibrary
 
         }
 
+        public void Shuffle()
+        {
+            for (int i = 0; i < cards.Count; i++)
+            {
+                int ranNum = new Random().Next(0, cards.Count);
+                Card cardSpace = cards[i];
+                cards[i] = cards[ranNum];
+                cards[ranNum] = cardSpace;
+            }
+           
+        }
+
+        public Card Deal()
+        {
+            Card card = cards[0];
+            cards.RemoveAt(0);
+
+            return card;
+        }
+
     }
 }

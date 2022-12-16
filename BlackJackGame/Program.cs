@@ -7,26 +7,61 @@ namespace BlackJackGame
 {
     internal class Program
     {
-        public int[] playerPosi = { 5, 5 };
-        public int[] dealerPosi = { 5, 15 };
-        private int CardSize = 5;
+        static int playerX = 5;
+        static int playerY = 5;
+
+        static int dealerX = 5;
+        static int dealerY = 15;
+
+        static int CardSize = 5;
 
         static void Main(string[] args)
         {
-            // PrintDeck();
+            //PrintDeck(myDeck);
+
+
             Deck myDeck = new Deck();
-            Hand myHand = new Hand();
+            myDeck.Shuffle();
+
+            Hand player = new Hand();
             Hand dealer = new Hand(true);
-            
 
+            player.addCard(myDeck.Deal());
+            player.addCard(myDeck.Deal());
 
+            dealer.addCard(myDeck.Deal());
+            dealer.addCard(myDeck.Deal());
+
+            PrintHand(player);
+            PrintHand(dealer);
         }
 
-        static void PrintDeck()
+        static void PrintHand(Hand hand)
+        {
+            if (hand.isDealer)
+            {
+                for (int i = 0; i < hand.CardsInHand.Count; i++)
+                {
+                    hand.CardsInHand[i].Print(dealerX, dealerY);
+                    dealerX += CardSize;
+                }
+            }
+            else 
+            {
+                for (int i = 0; i < hand.CardsInHand.Count; i++)
+                {
+                    hand.CardsInHand[i].Print(playerX, playerY);
+                    playerX += CardSize;
+                }
+            }
+        }
+
+       
+        static void PrintDeck(Deck myDeck)
         {
             int cardSize = 5;
             
-            Deck myDeck = new Deck();
+           
 
             int Xpoint = 0;
             int Ypoint = 0;

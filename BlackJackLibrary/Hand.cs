@@ -8,9 +8,10 @@ namespace BlackJackLibrary
 {
     public class Hand
     {
-        public List<Card> CardsInHand { get; private set; }
+        public List<Card> CardsInHand = new List<Card>();
+
         public int score { get; private set; }
-        private bool isDealer ;
+        public bool isDealer ;
 
         public Hand(bool dealer = false)
         {
