@@ -22,9 +22,9 @@ namespace BlackJackLibrary
         {
             CardsInHand.Add(card);
 
-            if ((int)card.Face >= 0 || (int)card.Face < 10)
+            if ((int)card.Face >= 0 && (int)card.Face < 10)
                 score += ((int)card.Face + 1);
-            else if ((int)card.Face > 10)
+            else if ((int)card.Face > 9)
                 score += 10;
         }
 
