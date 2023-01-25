@@ -91,7 +91,6 @@ namespace BlackJackGame
 
         }
 
-
         static void GameLoad()
         {
             Console.CursorTop = 10;
